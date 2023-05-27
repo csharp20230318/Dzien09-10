@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogTest", "NLogTest\NLogTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionExample", "ReflectionExample\ReflectionExample.csproj", "{5E996A7C-114F-46CB-80F9-C663A9C40361}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{8E3EA633-E517-49B5-A869-15F942E10FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E996A7C-114F-46CB-80F9-C663A9C40361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E996A7C-114F-46CB-80F9-C663A9C40361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E996A7C-114F-46CB-80F9-C663A9C40361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3EA633-E517-49B5-A869-15F942E10FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3EA633-E517-49B5-A869-15F942E10FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3EA633-E517-49B5-A869-15F942E10FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3EA633-E517-49B5-A869-15F942E10FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
