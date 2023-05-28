@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSub", "PubSub\PubSub.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ", "ZeroMQ\ZeroMQ.csproj", "{557F1CC9-87E6-4B6C-BD7E-5B7B0C1D3B7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveExample", "ReactiveExample\ReactiveExample.csproj", "{B230806B-AB8F-4FB3-AC29-332C60C4D4CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{557F1CC9-87E6-4B6C-BD7E-5B7B0C1D3B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{557F1CC9-87E6-4B6C-BD7E-5B7B0C1D3B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{557F1CC9-87E6-4B6C-BD7E-5B7B0C1D3B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B230806B-AB8F-4FB3-AC29-332C60C4D4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B230806B-AB8F-4FB3-AC29-332C60C4D4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B230806B-AB8F-4FB3-AC29-332C60C4D4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B230806B-AB8F-4FB3-AC29-332C60C4D4CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
