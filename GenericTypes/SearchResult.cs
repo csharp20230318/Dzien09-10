@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 namespace GenericTypes
 {
-	public class User
-	{
 
+	public interface IEntity {
+		int Id { get; set; }
 	}
 
-	public class Restaurant
+	public class User : IEntity
 	{
+		public int Id { get ; set; }
+	}
 
+	public class Restaurant : IEntity
+	{
+		public int Id { get; set; }
 	}
 
 	public class UserResults

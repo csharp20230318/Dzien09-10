@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericTypes
 {
-	internal class Repository<T>
+	internal class Repository<T> where T: IEntity, new()
 	{
 		private List<T> data = new List<T>();
 
@@ -32,6 +32,8 @@ namespace GenericTypes
 	}
 
 	public class Repository<TKey, TValue>
+		where TKey : struct
+		where TValue : new()
 	{
 		private Dictionary<TKey, TValue> data = new Dictionary<TKey, TValue>();
 
